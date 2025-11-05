@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: ${DATABASE_URL}
+    username: ${DATABASE_USERNAME}     # e.g., user
+    password: ${DATABASE_PASSWORD} # from Neon dashboard
+    hikari:
+      maximum-pool-size: 5         # start small; adjust later
+      connection-timeout: 20000
+  jpa:
+    hibernate:
+      ddl-auto: update             # dev: creates/updates tables; switch to 'validate' + Flyway later
+    show-sql: true                 # dev convenience
+    properties:
+      hibernate.format_sql: true
