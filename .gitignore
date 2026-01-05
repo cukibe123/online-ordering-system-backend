@@ -37,4 +37,5 @@ build/
 
 ### application files ###
 application.yml
+/src/main/resources
 
