@@ -34,3 +34,7 @@ build/
 
 ### local files ###
 .env
+
+### application files ###
+application.yml
+
