@@ -1,10 +1,11 @@
 # Online Ordering System (Backend)
 This is a minimal Online Ordering System (Backend), implemented fully in Java (Spring Framework).
 
-This project is constructed with the purpose to improve, get used to the concepts of Spring MVC, JPA, Hibernate, JUnit and Mockito in writing unit tests. Neon (PostgreSQL) is used as the serverless database for the storage of this project. If you want to understand more what I am trying to do in this project, just hit me up!
+This project is constructed with the purpose to improve, get used to the concepts of Spring MVC, JPA, Hibernate, JUnit and Mockito in writing unit tests. Neon (PostgreSQL) is used as the serverless database for the storage of this project. 
 
 The project also has a frontend development. For the frontend of this project, please refer to this [repository](https://github.com/cukibe123/online-ordering-system-frontend)
 
+If you are students or learners, who are learning Spring and want to understand more about what I have built in this project, feel free to hit me up!
 # Project Structure
 The project follows a domain-oriented layered architecture using Spring Boot, with clear separation between configuration, business logic, and data access.
 ```
